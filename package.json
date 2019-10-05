@@ -1,0 +1,21 @@
+{
+  "name": "number-to-words",
+  "version": "1.0.0",
+  "description": "Number to words conversion with typescript and express",
+  "main": "index.js",
+  "scripts": {
+    "build:watch": "tsc -w",
+    "start:watch": "nodemon build/index.js",
+    "dev": "concurrently npm:build:watch npm:start:watch"
+  },
+  "author": "Aleksey",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^4.1.2",
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "@types/express": "^4.17.1",
+    "express": "^4.17.1"
+  }
+}
